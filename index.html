@@ -3,58 +3,147 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Roshan Popkar | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <title>Roshan Popkar | Network Engineer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      color: #fff;
+      overflow-x: hidden;
+    }
+
+    .reel-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      animation: slideUp 1s ease-out;
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(100px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+
+    .section {
+      max-width: 650px;
+      margin-bottom: 30px;
+      padding: 20px;
+      background: #222;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+      animation: fadeIn 1.2s ease-in;
+    }
+
+    .section h2 {
+      color: #00ffcc;
+      margin-bottom: 10px;
+    }
+
+    .section p, .section li {
+      color: #ddd;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+
+    .social, .contact-info {
+      margin-top: 10px;
+    }
+
+    .social a, .contact-info a {
+      color: #00ffcc;
+      text-decoration: none;
+      margin-right: 15px;
+      font-weight: bold;
+    }
+
+    .footer {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .highlight {
+      color: #00ffcc;
+    }
+  </style>
 </head>
 <body>
 
-  <!-- Section 1: Hero -->
-  <section class="hero" data-aos="fade-up">
-    <img src="assets/profile.jpg" alt="Roshan Popkar" class="profile-img" />
-    <h1>Roshan Popkar</h1>
-    <p>Network & Fiber Engineer | LAN/WAN | OSPF | BGP | FTTH</p>
-    <a class="resume-btn" href="assets/resume.pdf" download>📄 Download Resume</a>
-  </section>
+  <div class="reel-container">
 
-  <!-- Section 2: Experience -->
-  <section class="experience" data-aos="fade-up">
-    <h2>Professional Experience</h2>
-    <p><strong>Associate Network Engineer</strong><br>
-    Tata Communications Ltd.<br>
-    <strong>26 March 2023 – 28 March 2025</strong> (2 years)</p>
-    <ul>
-      <li>Resolved tickets & incidents related to network faults</li>
-      <li>Analyzed L1/L2 issues in LAN/WAN, VPN, firewall, IPS</li>
-      <li>Monitored planned events, outages, NOC escalations</li>
-      <li>Collaborated with vendors & last mile providers</li>
-    </ul>
-  </section>
+    <div class="section">
+      <h2>👋 Hello, I'm <span class="highlight">Roshan Popkar</span></h2>
+      <p>🎯 A passionate Network Engineer with <strong>2+ years</strong> experience at Tata Communications Ltd. Skilled in troubleshooting, network monitoring, escalation handling, and infrastructure uptime.</p>
+    </div>
 
-  <!-- Section 3: Skills -->
-  <section class="skills" data-aos="fade-up">
-    <h2>Technical Skills</h2>
-    <ul>
-      <li>Networking: LAN, WAN, VLAN, TCP/IP, OSI Layer</li>
-      <li>Routing Protocols: OSPF, BGP, ARP</li>
-      <li>Devices: Cisco, Juniper, Huawei, Mikrotik</li>
-      <li>Tools: ServiceNow, ARCON PAM</li>
-      <li>Security: Basic knowledge of Firewall, IPS, VPN</li>
-    </ul>
-  </section>
+    <div class="section">
+      <h2>💼 Experience</h2>
+      <p><strong>Associate Network Engineer</strong> – Tata Communications Ltd.<br><em>28 March 2023 – 28 March 2025</em></p>
+      <ul>
+        <li>Resolved trouble tickets and coordinated with vendors.</li>
+        <li>Worked as “Duty Manager” to manage high-priority incidents.</li>
+        <li>Supported NOC team, handled 2000+ customers.</li>
+        <li>Link testing, VLAN tagging, firewall and VPN troubleshooting.</li>
+        <li>Worked in 24x7 production environment.</li>
+      </ul>
+    </div>
 
-  <!-- Section 4: Contact -->
-  <section class="contact" data-aos="fade-up">
-    <h2>Let’s Connect</h2>
-    <p>Email: roshan@example.com</p>
-    <p>Instagram: <a href="https://www.instagram.com/_.roshan_popkar._">@_.roshan_popkar._</a></p>
-    <p>LinkedIn: <a href="https://linkedin.com/in/roshan-popkar-302b471a4" target="_blank">roshan-popkar-302b471a4</a></p>
-  </section>
+    <div class="section">
+      <h2>🧠 Skills</h2>
+      <ul>
+        <li>Devices: Cisco routers, POE, Modem</li>
+        <li>Protocols: OSPF, BGP, ARP</li>
+        <li>Technologies: LAN, MAN, WAN, VLAN, TCP, VPN, OSI</li>
+        <li>Tools: ServiceNow, ARCON PAM</li>
+        <li>Basic knowledge of Firewalls, IPS, VPN devices</li>
+        <li>Strong interpersonal & leadership skills</li>
+      </ul>
+    </div>
 
-  <!-- Animate on Scroll JS -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <div class="section">
+      <h2>🎓 Education</h2>
+      <ul>
+        <li><strong>BE Electrical Engineering</strong> – 8.58 CGPA – Pune</li>
+        <li>HSC – 68.62%</li>
+        <li>SSC – 88.80%</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>📜 Certifications</h2>
+      <ul>
+        <li>Cisco Networking Basics</li>
+        <li>Fortinet NSE 1, 2, and 3 – Network Security Associate</li>
+        <li>Java – Waves Institute</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>💻 Additional Skills</h2>
+      <ul>
+        <li>JVM, HTML, SQL, C, C++</li>
+        <li>Self-motivated, adaptive, team player</li>
+        <li>Strong belief in learning & execution</li>
+      </ul>
+    </div>
+
+    <div class="section contact-info">
+      <h2>📧 Contact</h2>
+      <p>Email: <a href="mailto:roshanpopkar21@gmail.com">roshanpopkar21@gmail.com</a></p>
+      <p>Phone: <a href="tel:+918637762734">+91 8637762734</a></p>
+    </div>
+
+    <div class="section social">
+      <h2>🔗 Connect</h2>
+      <a href="https://instagram.com/_.roshan_popkar._" target="_blank">Instagram</a>
+      <a href="https://linkedin.com/in/roshan-popkar-302b471a4" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="footer">© 2025 Roshan Popkar | Made with ❤️</div>
+
+  </div>
+
 </body>
 </html>
