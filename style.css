@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Roshan Popkar Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+      overflow: hidden;
+    }
+
+    .reel-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .reel-box {
+      text-align: center;
+      background: #1e1e1e;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 15px #00ff88;
+      animation: zoomIn 1.5s ease;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    @keyframes zoomIn {
+      0% { transform: scale(0.8); opacity: 0; }
+      100% { transform: scale(1); opacity: 1; }
+    }
+
+    h1 {
+      color: #00ff88;
+    }
+
+    p {
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+<div class="reel-container">
+  <div class="reel-box">
+    <h1>Roshan Popkar</h1>
+    <p>Network Engineer | 2 Years Experience</p>
+    <p>_.roshan_popkar._ | roshanpopkar21@gmail.com</p>
+  </div>
+</div>
+
+</body>
+</html>
